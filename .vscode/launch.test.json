@@ -1,0 +1,30 @@
+{
+    "run": {
+        "default": "",
+        "items": [
+            {
+                "name": "reactive-learn",
+                "projectName": "reactive-learn",
+                "workingDirectory": "d:\\learn\\reactive-learn",
+                "args": [],
+                "vmargs": [],
+                "env": {},
+                "preLaunchTask": ""
+            }
+        ]
+    },
+    "debug": {
+        "default": "",
+        "items": [
+            {
+                "name": "reactive-learn",
+                "projectName": "reactive-learn",
+                "workingDirectory": "d:\\learn\\reactive-learn",
+                "args": [],
+                "vmargs": [],
+                "env": {},
+                "preLaunchTask": ""
+            }
+        ]
+    }
+}

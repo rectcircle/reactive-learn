@@ -1,0 +1,80 @@
+{
+	// 使用 IntelliSense 了解相关属性。 
+	// 悬停以查看现有属性的描述。
+	// 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"type": "java",
+			"name": "Debug (Launch)",
+			"request": "launch",
+			"cwd": "${workspaceFolder}",
+			"console": "internalConsole",
+			"stopOnEntry": false,
+			"mainClass": "",
+			"args": ""
+		},
+		{
+			"type": "java",
+			"name": "Debug (Launch)-DemoApplication<reactive-learn>",
+			"request": "launch",
+			"cwd": "${workspaceFolder}",
+			"console": "internalConsole",
+			"stopOnEntry": false,
+			"mainClass": "cn.rectcircle.reactivelearn.DemoApplication",
+			"args": "",
+			"projectName": "reactive-learn"
+		},
+		{
+			"type": "java",
+			"name": "Debug (Launch)-WebClientLearn<reactive-learn>",
+			"request": "launch",
+			"cwd": "${workspaceFolder}",
+			"console": "internalConsole",
+			"stopOnEntry": false,
+			"mainClass": "cn.rectcircle.reactivelearn.WebClientLearn",
+			"args": "",
+			"projectName": "reactive-learn"
+		},
+		{
+			"type": "java",
+			"name": "Debug (Launch)-DataStreamLearn<reactive-learn>",
+			"request": "launch",
+			"cwd": "${workspaceFolder}",
+			"console": "internalConsole",
+			"stopOnEntry": false,
+			"mainClass": "cn.rectcircle.reactivelearn.reactorlearn.DataStreamLearn",
+			"args": "",
+			"projectName": "reactive-learn"
+		},
+		{
+			"type": "java",
+			"name": "Debug (Launch)-ReactiveSimulation<reactive-learn>",
+			"request": "launch",
+			"cwd": "${workspaceFolder}",
+			"console": "internalConsole",
+			"stopOnEntry": false,
+			"mainClass": "cn.rectcircle.reactivelearn.reactorlearn.ReactiveSimulation",
+			"args": "",
+			"projectName": "reactive-learn"
+		},
+		{
+			"type": "java",
+			"name": "Debug (Launch)-ReactorLearn<reactive-learn>",
+			"request": "launch",
+			"cwd": "${workspaceFolder}",
+			"console": "internalConsole",
+			"stopOnEntry": false,
+			"mainClass": "cn.rectcircle.reactivelearn.reactorlearn.ReactorLearn",
+			"args": "",
+			"projectName": "reactive-learn"
+		},
+		{
+			"type": "java",
+			"name": "Debug (Attach)",
+			"request": "attach",
+			"hostName": "localhost",
+			"port": "<debug port of remote debuggee>"
+		}
+	]
+}
